@@ -18,6 +18,7 @@ def send_welcome(message):
     itembtnx = types.KeyboardButton('Xitoy')
     itembtni = types.KeyboardButton('Ispaniya')
     itembtnit = types.KeyboardButton('Italiya')
+    itembtnit = types.KeyboardButton('Turkiya')
     itembtnu = types.KeyboardButton('O\'zbekiston')
     markup.add(itembtna, itembtnx, itembtnr,itembtni, itembtnit, itembtnu)
     bot.send_message(message.chat.id, hello_text, reply_markup=markup)
