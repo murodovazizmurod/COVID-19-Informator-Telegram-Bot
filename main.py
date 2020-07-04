@@ -12,7 +12,7 @@ def send_welcome(message):
     bot.send_sticker(message.chat.id, sticker)
     hello_text = "So'ngi ma'lumotlarni olish uchun davlatni tanlang"
 
-    markup = types.ReplyKeyboardMarkup()
+    markup = types.ReplyKeyboardMarkup(resize_keyboard=False)
     itembtna = types.KeyboardButton('Aqsh')
     itembtnr = types.KeyboardButton('Rossiya')
     itembtnx = types.KeyboardButton('Xitoy')
